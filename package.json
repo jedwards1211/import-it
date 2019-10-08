@@ -1,7 +1,7 @@
 {
   "name": "import-it",
   "main": "./lib/import-it",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Automatically adds require and import statements for undeclared identifiers to Javascript and/or Flow, using dude-wheres-my-module",
   "keywords": [
     "import",
