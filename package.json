@@ -12,8 +12,16 @@
   "activationCommands": {
     "atom-workspace": "import-it:add-imports"
   },
-  "repository": "https://github.com/atom/import-it",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedwards1211/import-it.git"
+  },
+  "author": "Andy Edwards",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedwards1211/import-it/issues"
+  },
+  "homepage": "https://github.com/jedwards1211/import-it#readme",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
