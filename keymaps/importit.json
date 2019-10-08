@@ -1,0 +1,11 @@
+{
+  ".platform-darwin .editor": {
+    "ctrl-cmd-i": "import-it:add-imports"
+  },
+  ".platform-win32 .editor": {
+    "ctrl-alt-i": "import-it:add-imports"
+  },
+  ".platform-linux .editor": {
+    "ctrl-alt-i": "import-it:add-imports"
+  }
+}

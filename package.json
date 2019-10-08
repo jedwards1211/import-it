@@ -1,0 +1,41 @@
+{
+  "name": "import-it",
+  "main": "./lib/import-it",
+  "version": "0.0.0",
+  "description": "Automatically adds require and import statements for undeclared identifiers to Javascript and/or Flow, using dude-wheres-my-module",
+  "keywords": [
+    "import",
+    "require",
+    "autoimport",
+    "dude-wheres-my-module"
+  ],
+  "activationCommands": {
+    "atom-workspace": "import-it:add-imports"
+  },
+  "repository": "https://github.com/atom/import-it",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write *.json *.md *.js lib/**.js spec/**.js",
+    "prettier:check": "prettier --list-different *.json *.md *.js lib/**.js spec/**.js"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "dude-wheres-my-module": "^1.0.1",
+    "etch": "^0.14.0",
+    "find-root": "^1.1.0",
+    "fs-extra": "^8.1.0",
+    "jscodeshift": "^0.6.4",
+    "jscodeshift-add-imports": "^1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

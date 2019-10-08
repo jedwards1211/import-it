@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Add Imports",
+        "command": "import-it:add-imports"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "import-it",
+          "submenu": [
+            {
+              "label": "Add Imports",
+              "command": "import-it:add-imports"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
