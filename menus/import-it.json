@@ -4,6 +4,18 @@
       {
         "label": "Add Imports",
         "command": "import-it:add-imports"
+      },
+      {
+        "label": "Stop imports server gracefully (it will restart when you run Add Imports)",
+        "command": "import-it:stop-server"
+      },
+      {
+        "label": "Hard kill imports server (it will restart when you run Add Imports)",
+        "command": "import-it:kill-server"
+      },
+      {
+        "label": "Open imports server log file",
+        "command": "import-it:open-log-file"
       }
     ]
   },
@@ -17,6 +29,18 @@
             {
               "label": "Add Imports",
               "command": "import-it:add-imports"
+            },
+            {
+              "label": "Stop imports server gracefully (it will restart when you run Add Imports)",
+              "command": "import-it:stop-server"
+            },
+            {
+              "label": "Hard kill imports server (it will restart when you run Add Imports)",
+              "command": "import-it:kill-server"
+            },
+            {
+              "label": "Open imports server log file",
+              "command": "import-it:open-log-file"
             }
           ]
         }
