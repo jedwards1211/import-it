@@ -37,7 +37,7 @@
   "dependencies": {
     "atom-space-pen-views": "^2.2.0",
     "babel-parse-wild-code": "^1.1.1",
-    "dude-wheres-my-module": "^2.0.6",
+    "dude-wheres-my-module": "^2.0.7",
     "etch": "^0.14.0",
     "find-root": "^1.1.0",
     "fs-extra": "^8.1.0",
